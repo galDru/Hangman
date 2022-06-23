@@ -146,7 +146,7 @@ HANGMAN_ASCII_ART = ("""Welcome to the game Hangman \n
                        |___/""")
 print(HANGMAN_ASCII_ART, "\n", MAX_TRIES)
 wrong = 0
-fileName = r"C:\Users\gald1\OneDrive\שולחן העבודה\New Text Document.txt"
+fileName = r"C:\Users\gald1\OneDrive\שולחן העבודה\words.txt.txt"
 print("please enter a number for the index word in the file path")
 wordIndex = int(input())
 secret = choose_word(fileName, wordIndex)
